@@ -142,7 +142,7 @@ module DataShift
 
           save_if_new
           
-          add_variants_stock(current_value)
+          add_variants_stock(current_value).round(1)
 
         else
           super
