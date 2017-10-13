@@ -1,7 +1,3 @@
-require 'rake'
-
-
-
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'datashift_spree'#Helper::gem_name
